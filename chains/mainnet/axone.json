@@ -1,0 +1,37 @@
+{
+  "chain_name": "axone",
+  "registry_name": "axone",
+  "api": [
+    { "provider": "NodesVault", "address": "https://axone-mainnet-api.luckystar.asia" }
+  ],
+  "rpc": [
+    { "provider": "NodesVault", "address": "https://axone-mainnet-rpc.luckystar.asia" }
+  ],
+  "grpc": [
+    { "provider": "NodesVault", "address": "https://grpc.nodesvault.com" }
+  ],
+  "sdk_version": "0.46.0",
+  "coin_type": "118",
+  "min_tx_fee": "800",
+  "addr_prefix": "axone",
+  "logo": "/logos/axone.png",
+  "assets": [
+    {
+      "base": "uaxone",
+      "symbol": "AXONE",
+      "exponent": "6",
+      "coingecko_id": "axone",
+      "logo": "/logos/axone.png"
+    }
+  ],
+  "theme_color": "#0066cc",
+  "chain_id": "axone-1",
+  "endpoints": {
+    "rest": [
+      { "provider": "NodesVault", "address": "https://api.nodesvault.com" }
+    ],
+    "rpc": [
+      { "provider": "NodesVault", "address": "https://rpc.nodesvault.com" }
+    ]
+  }
+} 

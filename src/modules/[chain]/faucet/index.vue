@@ -43,7 +43,7 @@ const validAddress = computed(() => {
 });
 
 const faucetUrl = computed(() => {
-  return `https://faucet.ping.pub/${chainStore.current?.chainName}`;
+  return `https://faucet.nodesvault/${chainStore.current?.chainName}`;
   // return `http://localhost:3000/${chainStore.current?.chainName}`;
 });
 
@@ -143,7 +143,7 @@ onMounted(() => {
           <pre></pre>
           <a
             class="btn-ghost text-white rounded-md p-2 ml-4"
-            href="https://github.com/ping-pub/ping.pub/blob/main/faucet.md"
+            href="https://github.com/nodesvault/nodesvault/blob/main/faucet.md"
             >Update</a
           >
         </div>
