@@ -14,24 +14,16 @@
   "coin_type": "118",
   "min_tx_fee": "800",
   "addr_prefix": "axone",
-  "logo": "/logos/axone.png",
+  "logo": "https://explorer.nodesync.top/logos/axone.svg",
   "assets": [
     {
       "base": "uaxone",
       "symbol": "AXONE",
       "exponent": "6",
       "coingecko_id": "axone",
-      "logo": "/logos/axone.png"
+      "logo": "https://explorer.nodesync.top/logos/axone.svg"
     }
   ],
   "theme_color": "#0066cc",
-  "chain_id": "axone-1",
-  "endpoints": {
-    "rest": [
-      { "provider": "NodesVault", "address": "https://api.nodesvault.com" }
-    ],
-    "rpc": [
-      { "provider": "NodesVault", "address": "https://rpc.nodesvault.com" }
-    ]
-  }
+  "chain_id": "axone-1"
 } 
