@@ -1,0 +1,26 @@
+{
+  "chain_name": "warden-chiado",
+  "registry_name": "warden-chiado",
+  "api": [
+    { "provider": "NodesVault", "address": "https://api.nodesync.top/warden-testnet" }
+  ],
+  "rpc": [
+    { "provider": "NodesVault", "address": "https://rpc.nodesync.top/warden-testnet" }
+  ],
+  "sdk_version": "0.45.0",
+  "coin_type": "60",
+  "min_tx_fee": "700",
+  "addr_prefix": "warden",
+  "logo": "https://explorer.nodesync.top/logos/warden.svg",
+  "assets": [
+    {
+      "base": "award",
+      "symbol": "WARD",
+      "exponent": "18",
+      "coingecko_id": "",
+      "logo": "https://explorer.nodesync.top/logos/warden.svg"
+    }
+  ],
+  "theme_color": "#4a90e2",
+  "chain_id": "10200"
+} 
