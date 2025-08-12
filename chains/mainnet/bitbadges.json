@@ -1,0 +1,29 @@
+{
+    "chain_name": "bitbadges",
+    "registry_name": "bitbadges",
+    "api": [
+      { "provider": "NodesVault", "address": "https://node.bitbadges.io/api" }
+    ],
+    "rpc": [
+      { "provider": "NodesVault", "address": "https://bitbadges_mainnet_rpc.chain.whenmoonwhenlambo.money" }
+    ],
+    "grpc": [
+      { "provider": "NodesVault", "address": "https://bitbadges_mainnet_rpc.chain.whenmoonwhenlambo.money" }
+    ],
+    "sdk_version": "0.46.0",
+    "coin_type": "118",
+    "min_tx_fee": "800",
+    "addr_prefix": "bitbadges",
+    "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bitbadges/images/badge_logo.png",
+    "assets": [
+      {
+        "base": "uaxone",
+        "symbol": "AXONE",
+        "exponent": "6",
+        "coingecko_id": "bitbadges",
+        "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bitbadges/images/badge_logo.png"
+      }
+    ],
+    "theme_color": "#0066cc",
+    "chain_id": "bitbadges-1"
+  } 
